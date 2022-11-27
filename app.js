@@ -9,7 +9,7 @@ const methodOverride = require('method-override');
 const bodyParser = require('body-parser');
 
 // mongoURI
-const mongoURI = 'mongodb+srv://Ankush:ankush@learning.id5ibpg.mongodb.net/Files?retryWrites=true&w=majority'
+const mongoURI = 'mongodb+srv://Ankush:<password>@learning.id5ibpg.mongodb.net/Files?retryWrites=true&w=majority'
 // Create mongo connection
 const conn = mongoose.createConnection(mongoURI);
 
